@@ -1,7 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&family=Oswald&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Encode+Sans:wght@300&family=Odibee+Sans&family=Oswald&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Odibee+Sans&family=Oswald&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Encode+Sans:wght@300&family=Gloria+Hallelujah&family=Odibee+Sans&family=Oswald&display=swap');
+
+
 body {
     width: 960px;
     margin: auto;
@@ -88,6 +93,8 @@ main section>h1{
 .se-list {
     position: relative;
     height: 22%;
+    font-family: 'Encode Sans', sans-serif;
+    color: rgb(139, 134, 134);
 }
 .list {
     position: absolute;
@@ -95,13 +102,6 @@ main section>h1{
     top: 0px;
     z-index: -1;
 }
-.list{
-
-}
-.list-item{
-
-}
-.hidden-box{}
 .check-form {
     
         display: grid;
@@ -112,7 +112,8 @@ main section>h1{
     
 }
 .form-art1 {
-    padding: 40px 20px;
+    padding: 40px 40px;
+
 }
 .form-art2 {
     padding: 40px 40px;
@@ -122,6 +123,20 @@ main section>h1{
 }
 .profile-art {
     padding-left: 20px;
+    line-height: 1px;
+}
+.pProfile{
+    font-size: 25px;
+    width: 720px;
+    line-height: 25px;
+    font-weight: 100px;
+    color: rgb(155, 149, 149);
+}
+.imgProfile{
+    width: 70px;
+    height: 70px;
+    margin-top: 25px;
+
 }
 .btn {
     position: relative;
@@ -132,16 +147,32 @@ main section>h1{
     height: 40px;
     color: white;
 }
+.indx{
+    position: relative;
 
+}
+.hrLine{
+    position: absolute;
+    /* left: 0px;
+    top: 0px; */
+    width: 100%;
+    z-index: -1;
+    background: rgb(226, 214, 214);
+}
 .ftimg {
     display: block;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    /* z-index: -1; */
 }
 footer {
+    /* position: relative; */
     display: grid;
     grid-template-rows: 40px 1fr 1fr;
     padding-top: 80px;
     text-align: center;
+}
+footer>p{
+    color: gray;
 }
